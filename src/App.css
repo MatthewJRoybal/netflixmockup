@@ -1,33 +1,45 @@
-.App {
+/** Center everything except the logo **/
+.netflix-mockup {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/** Logo placed in top left corner in the header **/
+.logo {
+  height: 65px;
+  margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/** Set height and flex as row **/
+.header {
+  min-height: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+}
+
+/** Initially hide add & remove buttons **/
+button {
+  display: none;
+}
+
+/** When a content-item is hovered over, display the button **/
+.content-item:hover button {
+  display: block;
+}
+
+/** Font coloring **/
+h1, h4, li {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/** Display items horizontally in a row...with a wee bit of spacing between **/
+.content-item {
+  display: inline-block;
+  padding: 0 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/** Because bullets don't always make sense **/
+ul {
+  list-style: none;
 }
