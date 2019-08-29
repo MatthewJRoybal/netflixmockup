@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/netflixmockup/static/css/main.40c41903.chunk.css",
-    "main.js": "/netflixmockup/static/js/main.68888b2b.chunk.js",
-    "main.js.map": "/netflixmockup/static/js/main.68888b2b.chunk.js.map",
+    "main.js": "/netflixmockup/static/js/main.5682aaf0.chunk.js",
+    "main.js.map": "/netflixmockup/static/js/main.5682aaf0.chunk.js.map",
     "runtime~main.js": "/netflixmockup/static/js/runtime~main.67d9a2e5.js",
     "runtime~main.js.map": "/netflixmockup/static/js/runtime~main.67d9a2e5.js.map",
-    "static/js/2.4059df86.chunk.js": "/netflixmockup/static/js/2.4059df86.chunk.js",
-    "static/js/2.4059df86.chunk.js.map": "/netflixmockup/static/js/2.4059df86.chunk.js.map",
+    "static/js/2.e15b992b.chunk.js": "/netflixmockup/static/js/2.e15b992b.chunk.js",
+    "static/js/2.e15b992b.chunk.js.map": "/netflixmockup/static/js/2.e15b992b.chunk.js.map",
     "index.html": "/netflixmockup/index.html",
-    "precache-manifest.3ebedc4e6d80dea4fb0bcd637b06c86a.js": "/netflixmockup/precache-manifest.3ebedc4e6d80dea4fb0bcd637b06c86a.js",
+    "precache-manifest.ed2dfadee86c909abaef032097829afd.js": "/netflixmockup/precache-manifest.ed2dfadee86c909abaef032097829afd.js",
     "service-worker.js": "/netflixmockup/service-worker.js",
     "static/css/main.40c41903.chunk.css.map": "/netflixmockup/static/css/main.40c41903.chunk.css.map"
   }
