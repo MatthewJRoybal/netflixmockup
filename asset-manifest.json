@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/netflixmockup/static/css/main.40c41903.chunk.css",
-    "main.js": "/netflixmockup/static/js/main.10f7bfce.chunk.js",
-    "main.js.map": "/netflixmockup/static/js/main.10f7bfce.chunk.js.map",
+    "main.js": "/netflixmockup/static/js/main.3b9275a7.chunk.js",
+    "main.js.map": "/netflixmockup/static/js/main.3b9275a7.chunk.js.map",
     "runtime~main.js": "/netflixmockup/static/js/runtime~main.67d9a2e5.js",
     "runtime~main.js.map": "/netflixmockup/static/js/runtime~main.67d9a2e5.js.map",
     "static/js/2.e15b992b.chunk.js": "/netflixmockup/static/js/2.e15b992b.chunk.js",
     "static/js/2.e15b992b.chunk.js.map": "/netflixmockup/static/js/2.e15b992b.chunk.js.map",
     "index.html": "/netflixmockup/index.html",
-    "precache-manifest.cbe7a2ddef5c46a3876fad82a1fdb065.js": "/netflixmockup/precache-manifest.cbe7a2ddef5c46a3876fad82a1fdb065.js",
+    "precache-manifest.b9c30cd43222500c385f6263badce804.js": "/netflixmockup/precache-manifest.b9c30cd43222500c385f6263badce804.js",
     "service-worker.js": "/netflixmockup/service-worker.js",
     "static/css/main.40c41903.chunk.css.map": "/netflixmockup/static/css/main.40c41903.chunk.css.map"
   }
