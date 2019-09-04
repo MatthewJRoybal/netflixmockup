@@ -18,14 +18,24 @@
   justify-content: flex-start;
 }
 
-/** Initially hide add & remove buttons **/
+/** Initially hide add/remove buttons with some style! **/
 button {
-  display: none;
+  display: block;
+  visibility: hidden;
+  background-color: red;
+  border: darkred;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  text-transform: uppercase;
 }
 
-/** When a content-item is hovered over, display the button **/
+/** When a content-item is hovered over, make a button visible **/
 .content-item:hover button {
-  display: block;
+  visibility: visible;
 }
 
 /** Font coloring **/
