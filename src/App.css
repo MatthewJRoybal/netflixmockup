@@ -1,6 +1,6 @@
 /** Center everything except the logo **/
 .netflix-mockup {
-  text-align: center;
+  text-align: left;
 }
 
 /** Logo placed in top left corner in the header **/
@@ -14,7 +14,7 @@
   min-height: 100px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
 }
 
