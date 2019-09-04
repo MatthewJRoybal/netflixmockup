@@ -1,13 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addContent, removeContent, fetchInitialContent } from './actions';
+import { addContent, removeContent, fetchContent } from './actions';
 import Netflix from './netflix.png';
 import './App.css';
 
 class App extends React.Component {
 
   componentDidMount() {
-    fetch('./data.json')
+    return fetch('./data.json')
       .then(response => {
         if (!response.ok) {
           Promise.reject();
@@ -15,7 +15,7 @@ class App extends React.Component {
         return response.json();
       })
       .then(response => {
-        this.props.fetchInitialContent(response)
+        this.props.fetchContent(response);
       })
       .catch(err => console.log(err))
   }
@@ -68,7 +68,7 @@ class App extends React.Component {
 const mapDispatchToProps = dispatch => ({
   addContent: item => dispatch(addContent(item)),
   removeContent: item => dispatch(removeContent(item)),
-  fetchInitialContent: initState => dispatch(fetchInitialContent(initState))
+  fetchContent: data => dispatch(fetchContent(data))
 });
 
 // Map state to props :-)

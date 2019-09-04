@@ -1,5 +1,3 @@
-import { FETCH_INITIAL_CONTENT } from '../actions';
-
 const initialState = {
   mylist: [],
   recommendations: []
@@ -7,7 +5,7 @@ const initialState = {
 
 function rootReducer(state = initialState, action) {
   switch(action.type) {
-    case FETCH_INITIAL_CONTENT: {
+    case "FETCH_CONTENT": {
       return {...state, ...action.payload}
     }
     case "REMOVE_CONTENT":
