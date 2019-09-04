@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8637de3eb90af8ec95e4a551a387eb5e",
+    "revision": "5409a1db4f56ff1a3845d61963d8a032",
     "url": "/netflixmockup/index.html"
   },
   {
-    "revision": "a7f470160eb6ca964de5",
+    "revision": "73eb58caccf53db1f053",
     "url": "/netflixmockup/static/css/main.40c41903.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflixmockup/static/js/2.e15b992b.chunk.js"
   },
   {
-    "revision": "a7f470160eb6ca964de5",
-    "url": "/netflixmockup/static/js/main.3b9275a7.chunk.js"
+    "revision": "73eb58caccf53db1f053",
+    "url": "/netflixmockup/static/js/main.08739e8b.chunk.js"
   },
   {
     "revision": "139f0a538c751a6261a8",
