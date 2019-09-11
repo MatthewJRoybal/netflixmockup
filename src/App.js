@@ -9,7 +9,6 @@ import './App.css';
 // 2. Passing all actions & content as props from redux
 // 3. Individual content items are now reuseable components
 const App = ({ mylist, recommendations, removeContent, addContent, loading }) => {
-  console.log(loading);
   if (loading) {
     return <div>...Loading</div>;
   }
@@ -21,14 +20,14 @@ const App = ({ mylist, recommendations, removeContent, addContent, loading }) =>
       <div className="my-list-row">
         <h1>My List</h1>
         {mylist.map(item => (
-          <Item key={item.id} action={removeContent} item={item} />
+          <Item key={item.id} action={removeContent} item={item} title="Remove" />
         ))}
       </div>
       <hr />
       <div className="recommendation-row">
         <h1>Recommendations</h1>
         {recommendations.map(item => (
-          <Item key={item.id} action={addContent} item={item} />
+          <Item key={item.id} action={addContent} item={item} title="Add" />
         ))}
       </div>
       <hr />
